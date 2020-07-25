@@ -1,0 +1,84 @@
+.nav-contant{
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    height: 70px;
+}
+.nav-contant::before{
+    content: "";
+    height: 60px;  
+}
+.nav-contant .navbar{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-contant .navbar li{
+    list-style: none;
+    margin: 0px 2px;
+}
+.nav-contant .navbar a{
+    display: block;
+    text-decoration: none;
+    padding: 2px 2px; 
+    font-size: 1rem;
+}
+.nav-contant .logo img{
+    width: 40px;
+    height: 30px;
+}
+#section{
+    align-items: center;
+    padding: 3px 5px;
+    margin-bottom: 15px;
+}
+.section h1{
+    margin: 5px 5px;
+    font-size: 1.6rem;
+}
+.section p{
+    margin: 5px 5px;
+    font-size: 1rem;
+    color: white;
+}
+/* service */
+.container .main-boxs{
+    flex-direction: column;
+    flex-wrap: wrap; 
+}
+.container .boxs{
+    padding: 30px 40px;
+    margin: 13px 0px;
+    /* width: 100vw; */
+}
+
+/* client */
+.clients{
+    flex-wrap: wrap;
+    height: 100%;
+    height: 100vh;
+}
+.clients::before{
+    content: "";
+    height: 100vh;  
+}
+
+/* contact */
+.contacts .form-group input{
+    width: 50vw;
+    padding: 3px 4px;
+    margin: 6px 0px;
+    border: 1px solid rgba(236, 78, 78, 0.425);
+    border-radius: 8px;
+}
+.contacts ::placeholder{
+    text-align: center;
+}
+label{
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+
